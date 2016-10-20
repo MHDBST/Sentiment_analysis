@@ -1,0 +1,2 @@
+
+java -cp "*" -mx4g edu.stanford.nlp.sentiment.SentimentTraining -numHid 10 -trainPath train.txt -devPath dev.txt -train -model model3.ser.gz
